@@ -1,0 +1,29 @@
+{
+  "name": "messenger-practicum",
+  "version": "1.0.0",
+  "description": "---",
+  "main": "server.js",
+  "scripts": {
+    "dev": "parcel index.hbs",
+    "build": "parcel build index.hbs --no-cache",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/begmuhommet/middle.messenger.praktikum.yandex.git"
+  },
+  "author": "Jumayev Begmuhommet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/begmuhommet/middle.messenger.praktikum.yandex/issues"
+  },
+  "homepage": "https://github.com/begmuhommet/middle.messenger.praktikum.yandex#readme",
+  "devDependencies": {
+    "@anikin/parcel-transformer-handlebars": "^1.0.9",
+    "express": "^4.17.3",
+    "handlebars": "^4.7.7",
+    "parcel": "^2.4.1",
+    "prettier": "^2.6.2",
+    "sass": "^1.50.0"
+  }
+}
