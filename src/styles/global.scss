@@ -10,3 +10,15 @@ body {
   line-height: 13px;
   font-weight: 500;
 }
+
+.main-screen {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}

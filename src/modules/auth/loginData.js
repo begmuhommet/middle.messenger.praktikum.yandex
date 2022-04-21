@@ -1,7 +1,10 @@
+import { routes } from '../../routes';
+
 const loginData = {
-  title: 'Login',
+  title: 'Sign in',
   link: 'Registration',
-  button: 'Login',
+  href: routes.registration,
+  button: 'Sign in',
   inputs: [
     { name: 'login', type: 'text', placeholder: 'Login', isRequired: true, label: 'Login', errorText: 'Login Error' },
     {

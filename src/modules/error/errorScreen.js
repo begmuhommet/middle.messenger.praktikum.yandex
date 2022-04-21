@@ -1,3 +1,5 @@
+import { compileScreen } from '../../utils/compileScreen';
+
 const template = `
   <div class="error-screen">
     <h1 class="error-code">{{errorCode}}</h1>
@@ -7,4 +9,4 @@ const template = `
   </div>
 `;
 
-export default template;
+export const errorScreen = compileScreen(template);

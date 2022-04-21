@@ -1,3 +1,5 @@
+import { compileScreen } from '../../utils/compileScreen';
+
 const template = `
   <div class="auth-screen">
     <div class="auth-content">
@@ -18,4 +20,4 @@ const template = `
   </div>
 `;
 
-export default template;
+export const authScreen = compileScreen(template);
