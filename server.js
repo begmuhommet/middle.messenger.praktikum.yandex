@@ -11,10 +11,7 @@ function sendFile(res) {
 
 app.use(express.static('./dist'));
 
-app.get('/login', (req, res) => sendFile(res));
-app.get('/registration', (req, res) => sendFile(res));
-app.get('/chat', (req, res) => sendFile(res));
-app.get('/error', (req, res) => sendFile(res));
+app.get('*', (req, res) => sendFile(res));
 
 app.listen(PORT, () => {
   console.log(`App run on ${PORT}`);
