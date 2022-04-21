@@ -11,23 +11,23 @@ import { routes } from './routes';
 import { render } from './utils/render';
 
 export function renderScreen() {
-  switch (window.location.pathname) {
-    case routes.main:
-      render(mainScreen(mainData));
-      break;
-    case routes.login:
-      render(authScreen(loginData));
-      break;
-    case routes.registration:
-      render(authScreen(registrationData));
-      break;
-    case routes.error:
-      render(errorScreen(error404Data));
-      break;
-    case routes.chat:
-      render(chatScreen({}));
-      break;
+  if (window.location.pathname.includes(routes.login)) {
+    return render(authScreen(loginData));
   }
+
+  if (window.location.pathname.includes(routes.registration)) {
+    return render(authScreen(registrationData));
+  }
+
+  if (window.location.pathname.includes(routes.error)) {
+    return render(errorScreen(error404Data));
+  }
+
+  if (window.location.pathname.includes(routes.chat)) {
+    return render(chatScreen({}));
+  }
+
+  return render(mainScreen(mainData));
 }
 
 registerComponents();
