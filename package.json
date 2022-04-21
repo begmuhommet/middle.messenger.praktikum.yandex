@@ -25,6 +25,7 @@
     "nodemon": "^2.0.15",
     "parcel": "^2.4.1",
     "prettier": "^2.6.2",
+    "@parcel/core": "^2.4.1",
     "sass": "^1.50.0"
   },
   "dependencies": {
