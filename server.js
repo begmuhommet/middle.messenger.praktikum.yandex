@@ -9,11 +9,9 @@ const render = res => {
 
 app.use(express.static('./dist'));
 
-app.get('/login', (req, res) => render(res));
-app.get('/registration', (req, res) => render(res));
-app.get('/chat', (req, res) => render(res));
-app.get('/error', (req, res) => render(res));
-app.get('/*', (req, res) => render(res));
+app.get('/*', (req, res) => {
+  return res.sendFile(`${__dirname}/dist/index.html`);
+});
 
 app.listen(PORT, () => {
   console.log(`App run on ${PORT}`);
