@@ -23,4 +23,4 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Design template](https://www.figma.com/file/jF5fFFzgGOxQeB4CmKWTiE/Chat_external_link)
 <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Demo](https://messenger-practicum.netlify.app/) <br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Pull Request](https://github.com/begmuhommet/middle.messenger.praktikum.yandex)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Pull Request](https://github.com/begmuhommet/middle.messenger.praktikum.yandex/pull/9)
