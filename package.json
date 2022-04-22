@@ -19,13 +19,13 @@
   },
   "homepage": "https://github.com/begmuhommet/middle.messenger.praktikum.yandex#readme",
   "devDependencies": {
-    "@anikin/parcel-transformer-handlebars": "^1.0.9",
+    "@parcel/core": "^2.4.1",
     "@parcel/transformer-sass": "^2.4.1",
     "express": "^4.17.3",
     "nodemon": "^2.0.15",
     "parcel": "^2.4.1",
+    "parcel-transformer-hbs": "^1.0.4",
     "prettier": "^2.6.2",
-    "@parcel/core": "^2.4.1",
     "sass": "^1.50.0"
   },
   "dependencies": {
