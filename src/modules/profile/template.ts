@@ -1,5 +1,5 @@
 const template = `
-  <a href="{{href}}" class="link">{{link}}</a>
+  <div class="profile">Profile</div>
 `;
 
 export default template;
