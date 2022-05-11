@@ -32,6 +32,24 @@ export default class RegisterScreen extends Block {
     });
   }
 
+  protected componentDidMount() {
+    const form = this._element.querySelector("#form") as HTMLFormElement;
+    form.addEventListener("submit", this.getFormData);
+  }
+
+  protected getFormData(event: SubmitEvent) {
+    event.preventDefault();
+
+    const inputs = (event.target as HTMLFormElement).querySelectorAll("input");
+    const formData: Record<string, string> = {};
+
+    inputs.forEach((input: HTMLInputElement) => {
+      formData[input.name] = input.value;
+    });
+
+    console.log(formData);
+  }
+
   protected render() {
     return this.compile(templateRegister, { title: "Registration" });
   }

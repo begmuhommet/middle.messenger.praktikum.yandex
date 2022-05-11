@@ -11,7 +11,7 @@ export default class Block {
   };
 
   protected eventBus: EventBus;
-  private _element: HTMLElement | null = null;
+  protected _element: HTMLElement | null = null;
   private _id = v4();
 
   private _meta: { props: any };

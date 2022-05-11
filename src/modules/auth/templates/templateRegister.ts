@@ -3,7 +3,7 @@ const templateRegister = `
     <div class="auth-content">
       <h4 class="auth-title">{{ title }}</h4>
   
-      <form class="form">
+      <form class="form" id="form">
         {{{ emailInput }}}
         {{{ loginInput }}}
         {{{ firstNameInput }}}
