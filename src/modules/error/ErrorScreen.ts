@@ -1,7 +1,7 @@
 import Block from "../../base/Block";
 import Link from "../../components/Link";
 import Error404Data from "./data/error404Data";
-import template from "./template";
+import template from "./templates/template";
 
 export default class ErrorScreen extends Block {
   constructor() {

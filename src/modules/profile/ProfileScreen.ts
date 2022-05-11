@@ -1,9 +1,14 @@
 import Block from "../../base/Block";
-import template from "./template";
+import { Button } from "../../components/Button";
+import template from "./templates/template";
 
 export default class ProfileScreen extends Block {
   constructor() {
     super({});
+  }
+
+  protected initChildren() {
+    this.children.button = new Button({ label: "Save" });
   }
 
   protected render() {

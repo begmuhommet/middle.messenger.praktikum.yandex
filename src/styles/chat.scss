@@ -17,18 +17,28 @@
   margin-right: 10px;
 }
 
+.chat__navigation-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
 .profile-link {
   padding: 10px;
   display: flex;
   align-items: center;
-  align-self: flex-end;
   text-decoration: none;
   color: $grey-color;
-  margin-bottom: 20px;
   & span {
     display: block;
     margin-right: 8px;
   }
+}
+
+.main-link {
+  text-decoration: none;
+  color: $grey-color;
 }
 
 .search {
@@ -108,6 +118,9 @@
 
 .chat__messages {
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   flex: 10;
 }
 
@@ -135,4 +148,38 @@
   display: flex;
   justify-content: space-between;
   padding-top: 10px;
+  flex: 1;
 }
+
+.messages__bottom-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-top: 1px solid $border-color;
+}
+
+.message__input {
+  flex: 1;
+  padding: 0 10px;
+  & input {
+    width: 100%;
+    padding: 10px 20px;
+    outline: none;
+    background-color: $border-color;
+    color: $grey-color;
+    border-radius: 30px;
+    border: none;
+  }
+}
+
+.send-message__icon {
+  width: 28px;
+  height: 28px;
+  background-color: $blue-color;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+

@@ -3,7 +3,7 @@ import { Button } from "../../components/Button";
 import Input from "../../components/Input";
 import Link from "../../components/Link";
 import loginData from "./data/loginData";
-import templateLogin from "./templateLogin";
+import templateLogin from "./templates/templateLogin";
 
 export default class LoginScreen extends Block {
   constructor() {

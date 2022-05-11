@@ -1,5 +1,5 @@
 import { Routes } from "../../../routes";
-import { ILoginProps } from "../types";
+import { ILoginProps } from "../types/AuthTypes";
 
 const loginData: ILoginProps = {
   title: "Sign in",

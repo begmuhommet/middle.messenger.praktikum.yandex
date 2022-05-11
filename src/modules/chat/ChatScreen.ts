@@ -1,6 +1,6 @@
 import Block from "../../base/Block";
 import ChatFriend from "./ChatFriend";
-import templateScreen from "./templateScreen";
+import templateScreen from "./templates/templateScreen";
 
 export default class ChatScreen extends Block {
   constructor() {

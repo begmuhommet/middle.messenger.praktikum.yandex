@@ -1,5 +1,5 @@
 import { Routes } from "../../../routes";
-import { IRegisterProps } from "../types";
+import { IRegisterProps } from "../types/AuthTypes";
 
 const registerData: IRegisterProps = {
   title: "Registration",

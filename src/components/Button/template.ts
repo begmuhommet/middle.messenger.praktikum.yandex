@@ -3,3 +3,4 @@ const template = `
 `;
 
 export default template;
+1;

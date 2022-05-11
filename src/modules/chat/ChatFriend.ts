@@ -1,5 +1,5 @@
 import Block from "../../base/Block";
-import templateFriend from "./templateFriend";
+import templateFriend from "./templates/templateFriend";
 
 export default class ChatFriend extends Block {
   constructor(props) {

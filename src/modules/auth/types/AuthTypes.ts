@@ -1,4 +1,4 @@
-import { IInput } from "../../types/MainTypes";
+import { IInput } from "../../../types/MainTypes";
 
 export interface ILoginProps {
   title: string;

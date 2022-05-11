@@ -1,7 +1,7 @@
 import Block from "../../base/Block";
 import Link from "../../components/Link";
 import { Routes } from "../../routes";
-import template from "./template";
+import template from "./templates/template";
 
 export default class MainScreen extends Block {
   protected initChildren() {

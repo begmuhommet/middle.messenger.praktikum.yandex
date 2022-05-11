@@ -3,7 +3,7 @@ import { Button } from "../../components/Button";
 import Input from "../../components/Input";
 import Link from "../../components/Link";
 import registerData from "./data/registerData";
-import templateRegister from "./templateRegister";
+import templateRegister from "./templates/templateRegister";
 
 export default class RegisterScreen extends Block {
   constructor() {
